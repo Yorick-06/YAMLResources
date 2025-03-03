@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "yaml-resources",
+	"version": "${version}",
+	"name": "YAML Resources",
+	"description": "Addon for Simple Resources allowing the usage of the YAML format",
+	"authors": [
+		"Yorick-06"
+	],
+	"contact": {
+		"sources": "https://github.com/Yorick-06/YAMLResources",
+		"homepage": "https://github.com/Yorick-06/YAMLResources",
+		"issues": "https://github.com/Yorick-06/YAMLResources/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/yaml-resources/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cz.yorick.YAMLResources"
+		]
+	},
+
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": ">=21",
+		"simple-resources": ">=2.1.0"
+	}
+}
