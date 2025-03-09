@@ -16,8 +16,9 @@
 	"icon": "assets/yaml-resources/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"cz.yorick.YAMLResources"
+		"simple-resources:file_type": [
+			"cz.yorick.YAMLFormat",
+			"cz.yorick.YMLFormat"
 		]
 	},
 
@@ -25,6 +26,6 @@
 		"fabricloader": "*",
 		"minecraft": "*",
 		"java": ">=21",
-		"simple-resources": ">=2.1.0"
+		"simple-resources": ">=2.2.1"
 	}
 }

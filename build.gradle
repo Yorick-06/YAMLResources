@@ -34,7 +34,7 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	modImplementation "maven.modrinth:simple-resources:2.1.0"
+	modImplementation "maven.modrinth:simple-resources:2.2.1+1.21.4"
 	implementation include("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.4")
 	implementation include("org.yaml:snakeyaml:1.31")
 }
